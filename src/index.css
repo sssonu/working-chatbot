@@ -1,0 +1,9 @@
+/* This forces the root elements to take up the full height of the screen,
+   which is essential for the AppShell component to work correctly. */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent scrolling on the body */
+}
