@@ -10,7 +10,7 @@ A modern chatbot application built with React, Nhost Auth, Hasura GraphQL, and n
 
 - **Email Authentication**: Secure sign-up/sign-in with Nhost Auth
 - **Real-time Chat**: GraphQL subscriptions for live message updates
-- **AI Chatbot**: Powered by OpenRouter's free GPT-3.5-turbo model
+- **AI Chatbot**: Powered by OpenRouter's free Google-Gemini-Flash-1.5 model
 - **Secure Permissions**: Row-level security and proper user isolation
 - **Modern UI**: Beautiful, responsive design with Tailwind CSS
 - **GraphQL Only**: All frontend communication uses GraphQL (no REST)
@@ -34,7 +34,7 @@ OpenRouter AI API
 - **Backend**: Hasura GraphQL Engine
 - **Database**: PostgreSQL with Row-Level Security
 - **Workflow Engine**: n8n
-- **AI**: OpenRouter (GPT-3.5-turbo)
+- **AI**: OpenRouter ( Google-Gemini-Flash-1.5)
 - **Deployment**: Netlify
 
 ## 📦 Installation & Setup
@@ -52,6 +52,7 @@ OpenRouter AI API
 git clone <repository-url>
 cd chatbot-app
 npm install
+npm run dev
 ```
 
 ### 2. Environment Configuration
