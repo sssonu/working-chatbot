@@ -52,7 +52,6 @@ OpenRouter AI API
 git clone <repository-url>
 cd chatbot-app
 npm install
-npm run dev
 ```
 
 ### 2. Environment Configuration
